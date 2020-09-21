@@ -21,7 +21,8 @@ def prepare_dataset(dataset_path, json_path, n_mfcc=13, hop_length=512, n_fft=20
 
         if dirpath is not dataset_path:
 
-            category = dirpath.split('/')[-1]
+            print(dirpath)
+            category = dirpath.split("\\")[-1]
             data["mappings"].append(category)
 
             print (f"Processing {category}")
