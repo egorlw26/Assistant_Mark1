@@ -132,3 +132,4 @@ dmypy.json
 /data.json
 /.vscode/settings.json
 /model.h5
+/myVoice.wav
